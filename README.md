@@ -17,13 +17,13 @@
 ### 慣性ノックバックを使用する
 ```mcfunction
 # 慣性ノックバックの設定をします (小数点2桁まで有効)
-    data merge storage knockback_: {X_Power:1.00f,Y_Power:1.00f,Preset:KnockBack,Facing:Normal,KBR:true}
+    data merge storage knockbackun_: {X_Power:1.00f,Y_Power:1.00f,Preset:KnockBack,Facing:Normal,KBR:true}
 
 # 慣性ノックバックを発生させる対象者を実行者にしてfunctionを実行します
-    execute as 対象 run function knockback:player/api/knockback
+    execute as 対象 run function knockbackun:player/api/knockback
 
 # 慣性ノックバックを受ける被対象者を実行者にしてfunctionを実行します
-    execute as 対象 run function knockback:mob/api/knockback
+    execute as 対象 run function knockbackun:mob/api/knockback
 
 # 慣性ノックバックを発生させる対象者を実行者にしてfunctionを実行します
     execute as 対象 run function knockbackun:player/core/reuse
@@ -43,7 +43,7 @@
 
 ```mcfunction
 # 慣性ノックバックの設定をします (小数点2桁まで有効)
-    data merge storage knockback_: {X_Power:3.21f,Y_Power:3.21f,Preset:Approach,Facing:Attacker,KBR:false}
+    data merge storage knockbackun_: {X_Power:3.21f,Y_Power:3.21f,Preset:Approach,Facing:Attacker,KBR:false}
 ```
 
 ### Preset に設定可能な引数
