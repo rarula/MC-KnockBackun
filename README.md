@@ -90,3 +90,4 @@
 ## 更新
 * 21/01/09 ver0.1 pre-Release
 * 21/01/09 ver0.2 pre-Release
+* **21/01/10 ver1.0 Release**
