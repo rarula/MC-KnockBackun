@@ -88,6 +88,4 @@
 ---
 <A id="Update"></a>
 ## 更新
-* 21/01/09 ver0.1 Release
-* 21/01/09 ver0.2 Release
 * **21/01/10 ver1.0 Release**
