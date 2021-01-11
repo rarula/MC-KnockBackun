@@ -6,4 +6,4 @@
 
 # 条件チェック > 成功
     # タグを付与
-        tag @s[type=!item] add CAN_KnockBack
+        tag @s add CAN_KnockBack
