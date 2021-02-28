@@ -15,13 +15,13 @@
     data merge storage knockbackun_: {X_Power:1.00f,Y_Power:1.00f,Preset:KnockBack,Facing:Normal,KBR:true}
 
 # 慣性ノックバックを発生させる対象を実行者にしてfunctionを実行します
-    execute as 対象 run function knockbackun_:api/target/set
+    execute as 対象 run function knockbackun:player/api/knockback
 
 # 慣性ノックバックを受ける対象を実行者にしてfunctionを実行します
-    execute as 対象 run function knockbackun_:api/target/set
+    execute as 対象 run function knockbackun:mob/api/knockback
 
 # functionを実行します
-    function knockbackun_:common/reuse
+    function knockbackun:player/core/reuse
 ```
 
 ---
